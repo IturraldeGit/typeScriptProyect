@@ -1,5 +1,3 @@
-//@ts-check
-
 (async ()=> {
   const myCart = [];
   const products = [];
@@ -34,6 +32,4 @@
     name: 'Nicolas',
     lastName: 'Molina'
   }
-  const rta = JSON.stringify(person) + limit;
-  console.log(rta);
 });
