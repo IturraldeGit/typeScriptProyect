@@ -14,4 +14,14 @@
     // }
     let discount = parseInt('123');
     console.log('Discount: ', discount);
-});
+    if (discount <= 200) {
+        console.log('apply');
+    }
+    else {
+        console.log('not apply');
+    }
+    let hex = 0xfff;
+    console.log('hex: ', hex);
+    let binary = 0b1010;
+    console.log('binary: ', binary);
+})();
